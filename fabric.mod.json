@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "stopboom",
+  "version": "${version}",
+  "name": "StopBoom",
+  "description": "Client-side protection against accidentally exploding beds in the End.",
+  "authors": ["7Teen", "Ported"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.github.seventeen.stopboom.client.StopboomClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "=1.21.11",
+    "java": ">=21"
+  }
+}
